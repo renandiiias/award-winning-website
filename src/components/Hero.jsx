@@ -24,10 +24,19 @@ const Hero = () => {
   };
 
   useEffect(() => {
-    if (loadedVideos === totalVideos - 1) {
+    if (loadedVideos === totalVideos) {
       setLoading(false);
     }
   }, [loadedVideos]);
+
+  // Fallback: remove loading after 5 seconds even if videos don't load
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoading(false);
+    }, 5000);
+
+    return () => clearTimeout(timer);
+  }, []);
 
   const handleMiniVdClick = () => {
     setHasClicked(true);
@@ -145,6 +154,10 @@ const Hero = () => {
             muted
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
+            onError={() => {
+              console.log("Video failed to load, continuing anyway");
+              setLoading(false);
+            }}
           />
         </div>
 
