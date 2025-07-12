@@ -71,7 +71,12 @@ const NavBar = () => {
         <nav className="flex size-full items-center justify-between p-4">
           {/* Logo and Product button */}
           <div className="flex items-center gap-7">
-            <img src="/img/logo.png" alt="logo" className="w-10" />
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-gradient-to-r from-violet-600 to-purple-600 rounded-lg flex items-center justify-center">
+                <span className="text-white font-bold text-sm">IW</span>
+              </div>
+              <span className="font-zentry font-bold text-lg text-blue-50">ImmersiveWeb</span>
+            </div>
 
             <Button
               id="product-button"

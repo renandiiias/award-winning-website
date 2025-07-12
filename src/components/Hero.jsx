@@ -80,7 +80,15 @@ const Hero = () => {
     });
   });
 
-  const getVideoSrc = (index) => `videos/hero-${index}.mp4`;
+  const getVideoSrc = (index) => {
+    const videos = [
+      "https://videos.pexels.com/video-files/3191590/3191590-uhd_2560_1440_25fps.mp4", // Person coding
+      "https://videos.pexels.com/video-files/6153354/6153354-uhd_2560_1440_25fps.mp4", // UI/UX design
+      "https://videos.pexels.com/video-files/3130182/3130182-uhd_2560_1440_25fps.mp4", // Web development
+      "https://videos.pexels.com/video-files/8728380/8728380-uhd_2560_1440_25fps.mp4", // Creative workspace
+    ];
+    return videos[(index - 1) % videos.length];
+  };
 
   return (
     <div className="relative h-dvh w-screen overflow-x-hidden">
