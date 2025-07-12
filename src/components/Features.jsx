@@ -103,12 +103,11 @@ const Features = () => (
     <div className="container mx-auto px-3 md:px-10">
       <div className="px-5 py-32">
         <p className="font-circular-web text-lg text-blue-50">
-          Into the Metagame Layer
+          Nossos Serviços Premium
         </p>
         <p className="max-w-md font-circular-web text-lg text-blue-50 opacity-50">
-          Immerse yourself in a rich and ever-expanding universe where a vibrant
-          array of products converge into an interconnected overlay experience
-          on your world.
+          Criamos experiências digitais únicas que combinam design excepcional, 
+          animações avançadas e tecnologia de ponta para elevar sua marca a um novo patamar.
         </p>
       </div>
 
@@ -117,11 +116,11 @@ const Features = () => (
           src="videos/feature-1.mp4"
           title={
             <>
-              radia<b>n</b>t
+              sites <b>p</b>remium
             </>
           }
-          description="A cross-platform metagame app, turning your activities across Web2 and Web3 games into a rewarding adventure."
-          isComingSoon
+          description="Websites exclusivos com animações GSAP, efeitos 3D e micro-interações que impressionam e convertem."
+          isComingSoon={false}
         />
       </BentoTilt>
 
@@ -131,11 +130,11 @@ const Features = () => (
             src="videos/feature-2.mp4"
             title={
               <>
-                zig<b>m</b>a
+                e-comm<b>e</b>rce
               </>
             }
-            description="An anime and gaming-inspired NFT collection - the IP primed for expansion."
-            isComingSoon
+            description="Lojas online otimizadas para conversão com experiências de compra únicas e checkout otimizado."
+            isComingSoon={false}
           />
         </BentoTilt>
 
@@ -144,11 +143,11 @@ const Features = () => (
             src="videos/feature-3.mp4"
             title={
               <>
-                n<b>e</b>xus
+                app<b>s</b> web
               </>
             }
-            description="A gamified social hub, adding a new dimension of play to social interaction for Web3 communities."
-            isComingSoon
+            description="Aplicações web progressivas com performance excepcional e experiência mobile otimizada."
+            isComingSoon={false}
           />
         </BentoTilt>
 
@@ -157,18 +156,18 @@ const Features = () => (
             src="videos/feature-4.mp4"
             title={
               <>
-                az<b>u</b>l
+                brand<b>i</b>ng
               </>
             }
-            description="A cross-world AI Agent - elevating your gameplay to be more fun and productive."
-            isComingSoon
+            description="Identidade visual completa integrada ao design digital para uma experiência de marca coesa."
+            isComingSoon={false}
           />
         </BentoTilt>
 
         <BentoTilt className="bento-tilt_2">
           <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
             <h1 className="bento-title special-font max-w-64 text-black">
-              M<b>o</b>re co<b>m</b>ing s<b>o</b>on.
+              Pr<b>o</b>nto p<b>a</b>ra c<b>o</b>meçar?
             </h1>
 
             <TiLocationArrow className="m-5 scale-[5] self-end" />

@@ -49,12 +49,12 @@ const FloatingImage = () => {
     <div id="story" className="min-h-dvh w-screen bg-black text-blue-50">
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-[10px]">
-          the multiversal ip world
+          nossa metodologia exclusiva
         </p>
 
         <div className="relative size-full">
           <AnimatedTitle
-            title="the st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+            title="proc<b>e</b>sso de <br /> cri<b>a</b>ção únnico"
             containerClass="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
@@ -106,14 +106,13 @@ const FloatingImage = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 md:text-start">
-              Where realms converge, lies Zentry and the boundless pillar.
-              Discover its secrets and shape your fate amidst infinite
-              opportunities.
+              Cada projeto é uma jornada única. Combinamos estratégia, design e tecnologia 
+              para criar experiências digitais que superam expectativas e geram resultados excepcionais.
             </p>
 
             <Button
               id="realm-btn"
-              title="discover prologue"
+              title="conhecer processo"
               containerClass="mt-5"
             />
           </div>
